@@ -5,12 +5,10 @@
     <title>Some Website</title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
+    {{> header}}
     <h4>Welcome Message</h4>
     <p>{{welcomeMessage}}</p>
 
-    <footer>
-      <p>Copyright {{currentYear}}</p>
-    </footer>
+    {{> footer}} 
   </body>
 </html>
